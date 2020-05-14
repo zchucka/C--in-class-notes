@@ -1,0 +1,13 @@
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\bin\Debug\netcoreapp3.1\PropertyDemo.exe
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\bin\Debug\netcoreapp3.1\PropertyDemo.deps.json
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\bin\Debug\netcoreapp3.1\PropertyDemo.runtimeconfig.json
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\bin\Debug\netcoreapp3.1\PropertyDemo.runtimeconfig.dev.json
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\bin\Debug\netcoreapp3.1\PropertyDemo.dll
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\bin\Debug\netcoreapp3.1\PropertyDemo.pdb
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.csprojAssemblyReference.cache
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.csproj.CoreCompileInputs.cache
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.AssemblyInfoInputs.cache
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.AssemblyInfo.cs
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.dll
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.pdb
+C:\Users\zchuc\source\repos\ReflectionDemo\PropertyDemo\obj\Debug\netcoreapp3.1\PropertyDemo.genruntimeconfig.cache

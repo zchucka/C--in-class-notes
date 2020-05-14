@@ -1,0 +1,13 @@
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\bin\Debug\netcoreapp3.1\IndexDemo.exe
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\bin\Debug\netcoreapp3.1\IndexDemo.deps.json
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\bin\Debug\netcoreapp3.1\IndexDemo.runtimeconfig.json
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\bin\Debug\netcoreapp3.1\IndexDemo.runtimeconfig.dev.json
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\bin\Debug\netcoreapp3.1\IndexDemo.dll
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\bin\Debug\netcoreapp3.1\IndexDemo.pdb
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\obj\Debug\netcoreapp3.1\IndexDemo.csprojAssemblyReference.cache
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\obj\Debug\netcoreapp3.1\IndexDemo.csproj.CoreCompileInputs.cache
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\obj\Debug\netcoreapp3.1\IndexDemo.AssemblyInfoInputs.cache
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\obj\Debug\netcoreapp3.1\IndexDemo.AssemblyInfo.cs
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\obj\Debug\netcoreapp3.1\IndexDemo.dll
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\obj\Debug\netcoreapp3.1\IndexDemo.pdb
+C:\Users\zchuc\source\repos\ReflectionDemo\IndexDemo\obj\Debug\netcoreapp3.1\IndexDemo.genruntimeconfig.cache
