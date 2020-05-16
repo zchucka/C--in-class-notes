@@ -1,0 +1,13 @@
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\bin\Debug\netcoreapp3.1\DelegateDemo.exe
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\bin\Debug\netcoreapp3.1\DelegateDemo.deps.json
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\bin\Debug\netcoreapp3.1\DelegateDemo.runtimeconfig.json
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\bin\Debug\netcoreapp3.1\DelegateDemo.runtimeconfig.dev.json
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\bin\Debug\netcoreapp3.1\DelegateDemo.dll
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\bin\Debug\netcoreapp3.1\DelegateDemo.pdb
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.csprojAssemblyReference.cache
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.csproj.CoreCompileInputs.cache
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.AssemblyInfoInputs.cache
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.AssemblyInfo.cs
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.dll
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.pdb
+C:\Users\zchuc\Desktop\Sample C# code\DelegateDemo\DelegateDemo\DelegateDemo\obj\Debug\netcoreapp3.1\DelegateDemo.genruntimeconfig.cache
