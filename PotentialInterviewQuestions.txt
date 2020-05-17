@@ -1,0 +1,44 @@
+1. Give a detailed explanation of Delegates in C#.
+	A delegate is a type that represents references to methods with a particular parameter list and return type. When you instantiate a delegate, you can associate its instance with any method with a compatible signature
+and return type. You can invoke (or call) the method through the delegate instance. Delegates are used to pass methods as arguments to other methods. (ex call: delegate void SumDelegates(int x, int y);)
+
+2. Explain Reflection in C#.
+	Reflection provides objects that describe assemblies, modules, and types. You can use reflection to dynamically create an instance of a type, bind the type to an existing object, or get the type from an existing object
+and invoke its methods or access its fields and properties. If you are using attributes in your code, reflection enables you to access them.
+
+3. What are Properties in C#.
+	A property is a member that provides a flexible mechanism to read, write, or compute the value of a private field. Properties can be used as if they are public data members, but they are actually special methods called accessors.
+This enables data to be accessed easily and still helps promote the safety and flexibility of methods.
+
+4. What is a static property?
+	Use the static modifier to declare a static member, which belongs to the type itself rather than to a specific object. The static modifier can be used to declare static classes. In classes, interfaces, and structs, you may add
+the static modifier to fields, methods, properties, operators, events, and constructors.
+
+5. What are the advantages of properties in C#?
+	Properties allow for us to use abstraction to hide the details of how the getting and setting works to and ensure that the getting and setting of variables follows the rules that we provide.
+
+6. What is a virtual property?
+	A virtual property is a keyword that can be overriden. In contrast to an abstract property, a virtual property must provide logic.
+
+7. What is an abstract property?
+	An abstract property is a property that is defined but provide no logic. Classes that contain at least one abstract method are called abstract classes and you cannot create a instance of an abstract class.
+
+8. What is the difference between an interface and an abstract class?
+	An interface is a template for classes to follow. Interfaces contain no logic in the functions, only the definition whereas an abstract class can have nonabstract functions. Interfaces also allow multiple inheritance 
+in c#.
+
+9. What is an indexer?
+	Indexers allow instances of a class or struct to be indexed in a similar fashion to an array. The indexed values can be set or retrieved without explicitly specifying a type or instance member. Indexers resemble properties
+except that their accessors take parameters.
+
+10. What are multicast delegates?
+	Multicast delegates are delegates that reference multiple functions. If you invoke multicast delegates, all functions that are referenced will be run.
+
+11. How do you add a reference to a delegate?
+	delegateName.Invoke(params);
+
+12. What are events?
+	Events enable a class or object to notify other classes or objects when something of interest occurs. The class that sends the event is called the publisher and the class that receives the event are called subscribers.
+
+13. Can you have static indexers?
+No, you cannot.

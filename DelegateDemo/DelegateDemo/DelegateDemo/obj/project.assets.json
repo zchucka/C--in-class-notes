@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zchuc\\Desktop\\Sample C# code\\DelegateDemo\\DelegateDemo\\DelegateDemo\\DelegateDemo.csproj",
+      "projectUniqueName": "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\DelegateDemo\\DelegateDemo\\DelegateDemo\\DelegateDemo.csproj",
       "projectName": "DelegateDemo",
-      "projectPath": "C:\\Users\\zchuc\\Desktop\\Sample C# code\\DelegateDemo\\DelegateDemo\\DelegateDemo\\DelegateDemo.csproj",
+      "projectPath": "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\DelegateDemo\\DelegateDemo\\DelegateDemo\\DelegateDemo.csproj",
       "packagesPath": "C:\\Users\\zchuc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zchuc\\Desktop\\Sample C# code\\DelegateDemo\\DelegateDemo\\DelegateDemo\\obj\\",
+      "outputPath": "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\DelegateDemo\\DelegateDemo\\DelegateDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zchuc\\AppData\\Roaming\\NuGet\\NuGet.Config",
