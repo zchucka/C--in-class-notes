@@ -44,37 +44,130 @@ except that their accessors take parameters.
 No, you cannot.
 
 14. Why should you use a delegate?
+	Delegates allow methods to be passed as parameters. Delegates can invoke more than one method using multicast delegates. Delegates can be chained together so that multiple methods can be called on a single event. Methods
+don't need to match the delegate signature exactly.
+
 15. What are abstract indexers?
+	Abstract indexers allow abstraction for classes with indexers. An abstract indexer cannot be instantiated. A class containing an abstract indexer is meant to be inherited. 
+
 16. How do we achieve polymorphism in indexers?
+	Indexers can be used in both Abstract class and interfaces. Indexers can also be inherited with the virtual keyword. If an indexer is overriden with the virtual keyword, we can achieve dynamic polymorphism as the data type
+controls which indexer is called at runtime. If we method overload with indexers, we can achieve static polymorphism.
+
 17. How do we achieve indexers in interface?
+	Indexers in interfaces work similar to most interface definitions.
+ex.
+public interface IIndexInterface {
+	int this[int i] {
+		get;
+		set;
+	}
+}
+
 18. Can we overload an indexer?
+	In order to overload an indexer, we would need two indexers in the same class with different parameters. These indexers would have the same name but would have different parameters which would fulfill overloading.
+
 19. What are the differences between properties and indexers?
+	Indexers are container like objects that contains information that is accessed through an index. A property is a member of a class that is accessed through its name. Properties can be static while indexers cannot.
+Properties allow methods to be called as if they were public data members while indexers allow elements of an internal collection of an object to be accessed by using array notation on the object itself. The get method for Indexers
+requires a parameter (the index) while properties do not have one.
+
 20. How do we define a readonly/writeonly property?
+	To define a readonly property, we need to create a property that only has a getter. To define a writeonly property, we need to create a property that only has a setter.
+
 21. What are the two main ways we use the new keyword?
-	Creating objects and method hiding
+	The new keyword is used to create a new object on the heap. The new keyword is also changes which method is used during property overriding. If the new keyword is used in the second class instead of override, data of the parent
+type that is created as an object of the child type will call on the parent function (instead of the child function like in method overriding).
+
 22. What is the this pointer?
+	The this pointer is a pointer that references the current object that it is contained within.
+
 23. What is the differences between delegate and an event?
+	An event declaration adds a layer of abstraction and protection on the delegate instance. This protection prevents clients of the delegate from resetting the delegate and only allows adding or removing targets. Events can also call
+multiple delegates when needed (which mutlicast delegates can call multiple functions). Listening to events is optional which means that events work better if the code can complete all its work without calling any of its subscribers.
+Events have a void return type where delegates can have a return type. Event listeners have a longer lifetime compared to delegates so they are better for when the source will be raising events over a long period of time.
+
 24. What is the publisher/subscriber model?
+	In the publisher/subscriber model, a publisher publishes a message and there are one or more subscribers who capture the published message.
+
 25. What is the difference between var and dynamic?
 	Var is static while dynamic is at run time. Once var is defined, var is the same type throughout the code while dynamic can change.
+
 26. What is the difference between an array and a list?
+	Arrays have a predefined size while lists size is dynamic.  An array is a collection of homogenous parts while a list consists of heterogeneous elements. Arrays are contious in memory while lists are random. Users don't need to
+confine a track of next memory with arrays but they do have to track memory with a list. Lists contain more operations on it like sorting algorithms. Lists allow straightforward adding into while arrays require more effort to add.
+
 27. What are the advantages of a Dictionary?
+	Dictionaries represent a collection of key/value pairs. Dictionaries allow for fast lookup of data as the data is stored with a key and using the key will give us our value. Dictionary is implemented as a hash table so the 
+look up is incredibly quick. Every key in a dictionary must be unique and cannot be null. Dictionary requires an equality implementation to determine whether keys are equal. For purposes of enumeration (ie a foreach loop), each
+element is considered a KeyValuePair<TKey, TValue> which contains both the key and value of the entry.
+
 28. What are the different types of collections?
+	List, Dictionary, LinkedList, SortedList, Hashtable, Arraylist, queues, stacks
+
 29. What are implicitly typed arrays?
+	Implicitly typed arrays are arrays that do not contain any specific data type. When the user initializes the array with a data type, the compiler automatically converts these into arrays of that data type.
+In other words, the data type is not given by the user but implied by the code which the compiler then assigns.
+
 30. What are implicitly typed lists and how are they declared?
+	Implicitly typed lists are lists that do not contain any specific data type but instead imply the type at its initialization which is then given to the list by the compiler.
+ex. List<var> lst = new List<int>; // second type is required which makes them short lived
+
 31. How do we access dictionary?
-32. What is an array list?
+	We access the values in the dictionary by using the key.
+
+32. What is an arraylist?
+	ArrayList represents an ordered collection of an object that can be indexed individually. It is a basic alternative to an array as you can add and remove items from it dynamically and the arraylist resizes.
+
 33. Can you store objects in lists?
+	yes.
+   ex. List<Employees> empList = new List<Employees>;
+       empList.add(new Employee("Dave", "Smith", 10, 110000);
+
 34. How do you loop through an implicitly typed list?
+	A foreach loop will allow you to loop through an implicitly typed list. However, in order to access the properties of the type, you need to typecast.
+
 35. What are generic classes, methods, delegates?
+	The generic keyword is used to define a class, method, delegate that can take a generic type. In other words, a generic method that takes in two parameters can take in two integers, two chars, two strings, etc
+
 36. What is the new constraint?
-37. Can you pass a class/structure in a generic class? What do you need to do?
-38. How do you add multiple items to an arrayList?
-39. What is the difference between capacity and count in arrayList?
-40. Why does capacity jump to 8 in our example? https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.capacity?view=netcore-3.1
-41. What is a hash table in C#?
-42. What is the difference between hash table and dictionary?
-43. What is a stack? What are the commands for CRUD?
-44. What is a queue? What are the commands for CRUD?
-45. How do you reverse a string using a stack?
+	The new constraint specifies that a type argument in a generic class declaration must have a public parameterless constructor. To use new(), the class cannot be abstract.
+  ex. class ItemFactory<T> where T: new() {
+	   public T GetNewItem() {
+		return new T();
+	   }
+      }
+
+37. How do you add multiple items to an arrayList?
+	In order to add multiple items into an arrayList at the same time, you need to use the addRange() function.
+
+38. What is the difference between capacity and count in arrayList?
+	Count is the number of elements that are currently contained within the arrayList while the capacity is the maximum amount of elements that the arrayList can hold at the moment.
+
+39. Why does capacity jump to 8 in our example? https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.capacity?view=netcore-3.1
+
+40. What is a hash table in C#?
+	A hashtable is a data structure that implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index, also called a hash code, into an array
+of buckets or slots, from which the desired value can be found.
+
+41. What is the difference between hash table and dictionary?
+	A dictionary can only contain one of each key value while a hash table handles collisions through buckets. A dictionary is a generic collection while a hashtable is a nongeneric collection. In dictionaries, you must specify the 
+type of key and value while there is no need to specify the type in a hash table. Data retrieval is faster in a dictionary because a hash table requires boxing and unboxing. Accessing a key that doesn't exist in a dictionary will give 
+an error while trying to access a key that doesn't exist in a hash table will return null.
+
+42. What is a stack? What are the commands for CRD?
+	A stack is a data structure that models a LIFO (last in, first out) relationship. The CRD commands are as follows:
+C- push
+R- peek
+D- pop
+
+43. What is a queue? What are the commands for CRUD?
+	A queue is a data structure that models a FIFO relationship. The CRD commands are as follows:
+C- enqueue
+R- peek
+D- dequeue
+
+44. How do you reverse a string using a stack?
+	loop through the characters of the string adding them to the stack
+	use a second loop to pop the chars from the stack, printing as you do
 
