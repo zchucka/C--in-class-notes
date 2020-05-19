@@ -42,3 +42,39 @@ except that their accessors take parameters.
 
 13. Can you have static indexers?
 No, you cannot.
+
+14. Why should you use a delegate?
+15. What are abstract indexers?
+16. How do we achieve polymorphism in indexers?
+17. How do we achieve indexers in interface?
+18. Can we overload an indexer?
+19. What are the differences between properties and indexers?
+20. How do we define a readonly/writeonly property?
+21. What are the two main ways we use the new keyword?
+	Creating objects and method hiding
+22. What is the this pointer?
+23. What is the differences between delegate and an event?
+24. What is the publisher/subscriber model?
+25. What is the difference between var and dynamic?
+	Var is static while dynamic is at run time. Once var is defined, var is the same type throughout the code while dynamic can change.
+26. What is the difference between an array and a list?
+27. What are the advantages of a Dictionary?
+28. What are the different types of collections?
+29. What are implicitly typed arrays?
+30. What are implicitly typed lists and how are they declared?
+31. How do we access dictionary?
+32. What is an array list?
+33. Can you store objects in lists?
+34. How do you loop through an implicitly typed list?
+35. What are generic classes, methods, delegates?
+36. What is the new constraint?
+37. Can you pass a class/structure in a generic class? What do you need to do?
+38. How do you add multiple items to an arrayList?
+39. What is the difference between capacity and count in arrayList?
+40. Why does capacity jump to 8 in our example? https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.capacity?view=netcore-3.1
+41. What is a hash table in C#?
+42. What is the difference between hash table and dictionary?
+43. What is a stack? What are the commands for CRUD?
+44. What is a queue? What are the commands for CRUD?
+45. How do you reverse a string using a stack?
+
