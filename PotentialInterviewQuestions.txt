@@ -36,6 +36,7 @@ except that their accessors take parameters.
 
 11. How do you add a reference to a delegate?
 	delegateName.Invoke(params);
+	delegateName += func();
 
 12. What are events?
 	Events enable a class or object to notify other classes or objects when something of interest occurs. The class that sends the event is called the publisher and the class that receives the event are called subscribers.

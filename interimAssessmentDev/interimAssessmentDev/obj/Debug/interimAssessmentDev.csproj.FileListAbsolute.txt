@@ -1,0 +1,7 @@
+C:\Users\zchuc\source\repos\interimAssessmentDev\interimAssessmentDev\bin\Debug\interimAssessmentDev.exe.config
+C:\Users\zchuc\source\repos\interimAssessmentDev\interimAssessmentDev\bin\Debug\interimAssessmentDev.exe
+C:\Users\zchuc\source\repos\interimAssessmentDev\interimAssessmentDev\bin\Debug\interimAssessmentDev.pdb
+C:\Users\zchuc\source\repos\interimAssessmentDev\interimAssessmentDev\obj\Debug\interimAssessmentDev.csproj.CoreCompileInputs.cache
+C:\Users\zchuc\source\repos\interimAssessmentDev\interimAssessmentDev\obj\Debug\interimAssessmentDev.exe
+C:\Users\zchuc\source\repos\interimAssessmentDev\interimAssessmentDev\obj\Debug\interimAssessmentDev.pdb
+C:\Users\zchuc\source\repos\interimAssessmentDev\interimAssessmentDev\obj\Debug\interimAssessmentDev.csprojAssemblyReference.cache
