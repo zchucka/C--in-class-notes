@@ -36,8 +36,6 @@ namespace interimAssessmentDev
         {
             Company c = new Company();
             StreamWriter write = File.CreateText("EmployeeInfo.txt");
-            
-            
 
             // dynamic polymorphism contained within an indexer example
             Employee Dave = new Executive();
@@ -80,166 +78,12 @@ namespace interimAssessmentDev
             catch (Exception e)
             {
                 Console.WriteLine("we caught an error! {0}", e.Message);
+                Console.WriteLine();
             } finally
             {
                 Console.WriteLine("Just to show off that I know how finally works");
             }
             Console.ReadLine();
         }
-    }
-
-    class Company
-    {
-        private List<Employee> empList; // constructor
-
-        public Company()
-        {
-            empList = new List<Employee>();
-        }
-
-        public Employee this[int element]
-        {
-            get { return empList[element]; }
-            // in order to add an extra element into the indexer, we use the add function on cases were we give a -1 element
-            set { 
-                if (element < empList.Count)
-                {
-                    empList[element] = value;
-                } else
-                {
-                    empList.Add(value);
-                }
-            }
-        }
-
-        public void printCompanyEmployees()
-        {
-            // loop through our list calling employee type
-            foreach (var e in empList)
-            {
-                Type t = e.GetType();
-                Console.WriteLine("this employee is of type: {0}", t);
-                e.display();
-            }
-        }
-    }
-
-    class Employee: IEmployeeInfo
-    {
-        private Type _employeeType;
-        public virtual Type employeeType
-        {
-            get { return _employeeType;  }
-            set { _employeeType = this.GetType(); }
-        }
-
-        private string _name;
-        public string name
-        {
-            get { return _name; }
-            set { _name = value; }
-        }
-
-        private int _empNum;
-        public int empNum
-        {
-            get { return _empNum; }
-            set { _empNum = value; }
-        }
-
-
-        public virtual void display()
-        {
-            Console.WriteLine("I am an Employee");
-        }
-
-        public void displayEmpInfo()
-        {
-            Console.WriteLine("my name is {0} and my employee number is {1}", name, empNum);
-        }
-    }
-
-    class Manager: Employee
-    {
-        public override void display() // example of method overriding
-        {
-            Console.WriteLine("I am a Manager");
-        }
-
-        public void display(string name)
-        {
-            Console.WriteLine("My name is {0} and I am a manager", name);
-        }
-
-        private Type _empType;
-        public override Type employeeType 
-        { 
-            get => _empType;
-            set => _empType = value; 
-        }
-    }
-
-    class Executive : Employee
-    {
-        private Type _empType;
-        public override Type employeeType
-        {
-            get => _empType;
-            set => _empType = value;
-        }
-
-        public override void display()
-        {
-            Console.WriteLine("I am a Executive");
-        }
-        
-        public void display(string name)
-        {
-            Console.WriteLine("My name is {0} and I am a manager", name);
-        }
-    }
-
-    abstract class ITProfessional: Employee
-    {
-        public abstract int salary
-        {
-            get;
-            set;
-        }
-
-        public override Type employeeType
-        {
-            get => base.employeeType;
-            set => base.employeeType = value;
-        }
-        public abstract void displaySal();
-        
-    }
-
-    class Developer : ITProfessional
-    {
-        public override int salary
-        {
-            get { return salary; }
-            set { salary = value; }
-        }
-
-        public override Type employeeType
-        {
-            get => base.employeeType;
-            set => base.employeeType = value;
-        }
-        public override void displaySal()
-        {
-            Console.WriteLine(salary);
-        }
-    }
-
-    interface IEmployeeInfo
-    {
-        string name { get; set; }
-        int empNum { get; set; }
-
-        void displayEmpInfo();
     }
 }

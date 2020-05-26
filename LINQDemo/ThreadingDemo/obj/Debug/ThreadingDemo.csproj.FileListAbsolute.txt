@@ -1,0 +1,7 @@
+C:\Users\zchuc\source\repos\LINQDemo\ThreadingDemo\bin\Debug\ThreadingDemo.exe.config
+C:\Users\zchuc\source\repos\LINQDemo\ThreadingDemo\bin\Debug\ThreadingDemo.exe
+C:\Users\zchuc\source\repos\LINQDemo\ThreadingDemo\bin\Debug\ThreadingDemo.pdb
+C:\Users\zchuc\source\repos\LINQDemo\ThreadingDemo\obj\Debug\ThreadingDemo.csprojAssemblyReference.cache
+C:\Users\zchuc\source\repos\LINQDemo\ThreadingDemo\obj\Debug\ThreadingDemo.csproj.CoreCompileInputs.cache
+C:\Users\zchuc\source\repos\LINQDemo\ThreadingDemo\obj\Debug\ThreadingDemo.exe
+C:\Users\zchuc\source\repos\LINQDemo\ThreadingDemo\obj\Debug\ThreadingDemo.pdb

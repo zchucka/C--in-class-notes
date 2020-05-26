@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zchuc\\Desktop\\LambdaAndAnonymous\\LLDemo\\AnanymousDemo\\AnanymousDemo.csproj": {}
+    "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\LambdaAndAnonymous\\LLDemo\\AnanymousDemo\\AnanymousDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zchuc\\Desktop\\LambdaAndAnonymous\\LLDemo\\AnanymousDemo\\AnanymousDemo.csproj": {
+    "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\LambdaAndAnonymous\\LLDemo\\AnanymousDemo\\AnanymousDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zchuc\\Desktop\\LambdaAndAnonymous\\LLDemo\\AnanymousDemo\\AnanymousDemo.csproj",
+        "projectUniqueName": "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\LambdaAndAnonymous\\LLDemo\\AnanymousDemo\\AnanymousDemo.csproj",
         "projectName": "AnanymousDemo",
-        "projectPath": "C:\\Users\\zchuc\\Desktop\\LambdaAndAnonymous\\LLDemo\\AnanymousDemo\\AnanymousDemo.csproj",
+        "projectPath": "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\LambdaAndAnonymous\\LLDemo\\AnanymousDemo\\AnanymousDemo.csproj",
         "packagesPath": "C:\\Users\\zchuc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zchuc\\Desktop\\LambdaAndAnonymous\\LLDemo\\AnanymousDemo\\obj\\",
+        "outputPath": "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\LambdaAndAnonymous\\LLDemo\\AnanymousDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zchuc\\AppData\\Roaming\\NuGet\\NuGet.Config",

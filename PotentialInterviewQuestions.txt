@@ -172,4 +172,114 @@ D- dequeue
 44. How do you reverse a string using a stack?
 	loop through the characters of the string adding them to the stack
 	use a second loop to pop the chars from the stack, printing as you do
+45. What are the different collection types?
+	1. Index based: array, list
+	2. K/V pair: hashtable, sorted list
+	3. Prioritized collection: stacks, queues
+	4. Specialized collection: string collections, hybrid collections
+46. What are the six types of constraints of generics?
+	1. where T: struct -> must be value type
+	2. where T: class -> must be reference type
+	3. where T: new() -> type must have parameterless constructor
+	4. where T: <base class> -> must inherit from <base class>
+	5. where T: <interface> -> must implement interface
+	6. where T: U -> T must inherit from type U
+
+47. What are the three main uses of the new keyword?
+	1. Creating an object on the heap -> (ex int x = new int();)
+	2. Method hiding -> (ex. public new void member() ...)
+	3. The new generic constraint -> (ex. class<T> where T: new()...)
+
+48. What is a singleton?
+	A singleton class is a class that can have only one object (instance of a class) at a time. After first time, if we try to instantiate the Singleton class, the new variable also points to the first instance created.
+
+49. What are anonymous functions?
+	An anonymous function is an "inline" statement or expression that can be used wherever a delegate type is expected. You can use a lambda expression or an anonymous method to create an anonymous function.
+(ex. MathDelegate delName = delegate(double x, double y) { return x + y; }
+     delName(3, 5);		)
+
+50. What is the lambda operator?
+	A lambda operator is used for lambda functions. Lambda functions are type of anonymous functions that are used to make inline functions anywhere delegates can be used. 
+(ex. (input-params) => expression)
+
+51. What is a generic delegate?
+	Generic delegates are inbuilt delegates taht are present in the System namespace. All these three delegates can be used with the method, anonymous method, and lambda expressions. There are three types of generic delegates: 
+predicate delegate, func delegate, and action delegate. Predicate delegates are delegates that represent the method that defines a set of criteria and determines whether the specified object meets those criteria, returning true or false.
+Func delegates have zero or more input parameters and one out parameter. Action delegate is similar to the func delegate except that the action delegate doesn't return a value.
+
+52. How would you simplify an anonymous function?
+	1. convert to a lambda functions
+		delegate(string text) {return text.Length;} - - - > (string text) => {return text.Length}
+	2. single expression, no braces
+		(string text) => {return text.Length} - - - > (string text) => text.Length;
+	3. Let the compiler infer the param type and lose the paranthesis
+		(string text) => text.Length; - - - > text => text.Length
+
+53. What is LINQ?
+	Language Integrated Query (LINQ) is the name for a set of technologies based on the integration of query capabilities directly into C# language. LINQ is contained within the System namespace and follows SQL-like logic
+for interaction with a database.
+
+54. What is the difference between the order by and group by keywords?
+	The order by keyword organizes by the results of the column (ex in the column fruits, it would be organized alphabetically). The group by clause groups the results up by the same value in the summary rows.
+
+55. How do you select using LINQ with where?
+ ex. var lowNums =
+	from n in numbers
+	select n;
+
+56. What does the skip keyword do in LINQ?
+	The Skip operator bypasses a specified number of contiguous rows from a sequence/table and returns the remaining table. It can skips rows from the top or can be for a certain criteria.
+
+57. What does the take keyword do in LINQ?
+	The Take operator returns a specified number of contiguous rows from the starting point of the database table. The Take operator takes in a parameter that specifies how many rows we want from the start position of the table.
+
+58. How do you use Unions in LINQ?
+	Assume we have two arrays -> numA and numB
+(ex.	var uniqueNumbers = numA.Union(numB);)
+
+59. What is the difference between the All and Any keyword?
+	The All keyword returns true if ALL of the rows in the specified columns pass the conditon. The Any keyword returns true if at least one of the rows in the specified columns pass the condition.
+
+60. What are some of the different types of Aggregate function in LINQ?
+	Some of the more common aggregate functions are:
+Count -> returns the count of the number of results
+Sum -> sums up the col
+min -> finds the smallest value of a row in the col
+Max -> finds the largest value of a row in the col
+Average -> finds the average value of a row
+
+61. What does the Distinct keyword do?
+	The distinct keyword only returns the distinct values contained within a row. In other words, the distinct keyword eliminates any repeats.
+
+62. What does the Except keyword do?
+	The except keyword returns the results of a table that are not contained within another table.
+(ex. IEnumerable<int> onlyA = numA.Except(numB);)
+
+63. What does First keyword do?
+	The First keywords returns the first results within the row. FirstOrDefault either returns the first result or returns a default value if there is no result.
+
+64. What is the thread pool?
+	A thread pool is a software design pattern for achieving concurrency of execution within a computer program. Often also called replicated workers, a thread pool maintains multiple threads waiting for tasks to be allocated
+for concurrent execution by the supervising program.
+
+65. What is a thread?
+	A thread is a path followed when executing a program. Using threads, you can divide the program into two or more simultaneously running tasks.
+
+66. What is locking?
+	The lock statement is used to hold a thread that the lock is currently on. The code block is then executed and then releases the lock when it is finished. Typically, it is done by associating a synchronization object with 
+each object that is susceptible to be shared between threads. Then, code manipulates the state of the object thereby locking the object. The reason for locking is to ensure that threads flow in a certain order.
+
+67. How does join mean? 
+	Join is how one thread waits for the completion of another thread. The main thread should execute a join waiting for the child thread to terminate. It forces the thread to wait until the other thread is done to execute.
+
+68. What is ThreadStart?
+	ThreadStart is a delegate that represents the method that executes on a thread.
+(ex. ThreadStart threadDel = new ThreadStart(Work.DoWork);
+     Thread newThread = new Thread(threadDelegate);
+     newThread.Start();
+
+69. What are the thread exceptions?
+	Execptions in threads will typically occur when using locking. If a thread is trying to access a lock that has not yet been released, an exception will be thrown and needs to be handled by the code, typically using a try/catch
+block.
+
 

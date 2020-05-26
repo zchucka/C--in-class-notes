@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zchuc\\Desktop\\LambdaAndAnonymous\\LLDemo\\LamdaDemo\\LamdaDemo.csproj": {}
+    "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\LambdaAndAnonymous\\LLDemo\\LamdaDemo\\LamdaDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zchuc\\Desktop\\LambdaAndAnonymous\\LLDemo\\LamdaDemo\\LamdaDemo.csproj": {
+    "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\LambdaAndAnonymous\\LLDemo\\LamdaDemo\\LamdaDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zchuc\\Desktop\\LambdaAndAnonymous\\LLDemo\\LamdaDemo\\LamdaDemo.csproj",
+        "projectUniqueName": "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\LambdaAndAnonymous\\LLDemo\\LamdaDemo\\LamdaDemo.csproj",
         "projectName": "LamdaDemo",
-        "projectPath": "C:\\Users\\zchuc\\Desktop\\LambdaAndAnonymous\\LLDemo\\LamdaDemo\\LamdaDemo.csproj",
+        "projectPath": "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\LambdaAndAnonymous\\LLDemo\\LamdaDemo\\LamdaDemo.csproj",
         "packagesPath": "C:\\Users\\zchuc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zchuc\\Desktop\\LambdaAndAnonymous\\LLDemo\\LamdaDemo\\obj\\",
+        "outputPath": "C:\\Users\\zchuc\\source\\repos\\ReflectionDemo\\LambdaAndAnonymous\\LLDemo\\LamdaDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zchuc\\AppData\\Roaming\\NuGet\\NuGet.Config",

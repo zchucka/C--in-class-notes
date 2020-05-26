@@ -41,7 +41,7 @@ namespace Generics
         }
     }
 
-    public class GenericClass<T> where T : new()
+    public class GenericClass<T> where T: new()
     {
         public T NewObject()
         {
