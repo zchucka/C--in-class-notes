@@ -8,17 +8,13 @@ namespace interimAssessmentDev
 {
     class Developer : ITProfessional
     {
+        private int _salary;
         public override int salary
         {
-            get { return salary; }
-            set { salary = value; }
+            get { return _salary; }
+            set { _salary = value; }
         }
 
-        public override Type employeeType
-        {
-            get => base.employeeType;
-            set => base.employeeType = value;
-        }
         public override void displaySal()
         {
             Console.WriteLine(salary);

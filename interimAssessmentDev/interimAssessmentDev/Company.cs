@@ -9,10 +9,13 @@ namespace interimAssessmentDev
     class Company
     {
         private List<Employee> empList; // constructor
+        public string name;
+        public int length;
 
-        public Company()
+        public Company(string name)
         {
             empList = new List<Employee>();
+            this.name = name;
         }
 
         public Employee this[int element]
@@ -28,6 +31,7 @@ namespace interimAssessmentDev
                 else
                 {
                     empList.Add(value);
+                    length++;
                 }
             }
         }

@@ -260,7 +260,7 @@ Average -> finds the average value of a row
 
 64. What is the thread pool?
 	A thread pool is a software design pattern for achieving concurrency of execution within a computer program. Often also called replicated workers, a thread pool maintains multiple threads waiting for tasks to be allocated
-for concurrent execution by the supervising program.
+for concurrent execution by the supervising program. A thread pool is a collection of threads.
 
 65. What is a thread?
 	A thread is a path followed when executing a program. Using threads, you can divide the program into two or more simultaneously running tasks.
@@ -281,5 +281,31 @@ each object that is susceptible to be shared between threads. Then, code manipul
 69. What are the thread exceptions?
 	Execptions in threads will typically occur when using locking. If a thread is trying to access a lock that has not yet been released, an exception will be thrown and needs to be handled by the code, typically using a try/catch
 block.
+
+70. What is the difference between lock and mutex?
+	A lock only allows only one thread to enter the part that's locked and the lock is not shared with any other processes. A mutex is the same as a lock but it can be system wide (ie shared with other processes).
+
+71. What is Mutex?
+	Mutex (mutually exclusive object) is a programming object that allows multiple program threads to share the same resource, such as file access, but not simultaneously. Similar to a place that only has one cashier, the threads
+must wait for the previous thread to release the key in order to access.
+ 
+72. What does the WaitOne function do in the class mutex?
+	The WaitOne function is the function that marks the point at which the threads will stop and not continuing until the Mutex key is released.
+
+73. What is the Semaphore?
+	A semaphore is a generalized mutex in the sense that we can specify the number of threads that can go into the code at a given time. Equivalent to a bank having three tellers at a given time, only three (or n) threads can use
+the code at a given time.
+
+74. What is the difference between mutex and SemaphoreSlim?
+	A mutex provides mutual exclusion (ie one object or the other) where either producer or consumer can have the key and proceed with their work. At any point of time, only one thread can work with the entire buffer. A semaphore
+is a generalized mutex. In lieu of single buffer, we can split into multiple buffers (ie 3 threads allowed in the section of code at a given time).
+
+75. What is the difference between a thread and a process?
+	Threads are typically used for small tasks  whereas processes are used for heavy tasks. A process can contain multiple threads as well. Threads within the same process contain the share the same address space but different 
+processes do not have the same address. Threads run in shared memory space while processes run in seperate memory space. 
+
+76. What is the thread life cycle?
+	Request -> Thread Object -> resource allocated -> task executed -> garbage collection
+
 
 

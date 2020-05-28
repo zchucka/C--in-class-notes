@@ -13,12 +13,6 @@ namespace interimAssessmentDev
             get;
             set;
         }
-
-        public override Type employeeType
-        {
-            get => base.employeeType;
-            set => base.employeeType = value;
-        }
         public abstract void displaySal();
 
     }

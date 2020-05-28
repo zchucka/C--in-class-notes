@@ -2,19 +2,19 @@
   <Namespace>System.Threading.Tasks</Namespace>
 </Query>
 
-
 public class Program
 {
 	public static void Main(string[] args)
 	{
 		List<int> list = new List<int>();
-		list.AddRange(new int[] {1034, 1200, 1300, 1400, 1234 });
+		list.AddRange(new int[] {1034, 1200, 1300, 1400, 1201}); //1034, 1200, 1300, 1400, 1201
 		
 		// create a bunch of threads
 		List<Thread> threads = new List<Thread>();
         list.ForEach(x => threads.Add(new Thread(() => ThreadMethod(x))));
 		
 		// start them
+		// function causes them to be printed in numeric order
 		threads.ForEach(x => x.Start());
 		
 		// wait for them to finish

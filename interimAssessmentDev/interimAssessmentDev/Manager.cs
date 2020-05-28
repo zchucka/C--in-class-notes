@@ -18,11 +18,5 @@ namespace interimAssessmentDev
             Console.WriteLine("My name is {0} and I am a manager", name);
         }
 
-        private Type _empType;
-        public override Type employeeType
-        {
-            get => _empType;
-            set => _empType = value;
-        }
     }
 }

@@ -8,12 +8,6 @@ namespace interimAssessmentDev
 {
     class Employee : IEmployeeInfo
     {
-        private Type _employeeType;
-        public virtual Type employeeType
-        {
-            get { return _employeeType; }
-            set { _employeeType = this.GetType(); }
-        }
 
         private string _name;
         public string name

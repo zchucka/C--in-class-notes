@@ -8,12 +8,6 @@ namespace interimAssessmentDev
 {
     class Executive : Employee
     {
-        private Type _empType;
-        public override Type employeeType
-        {
-            get => _empType;
-            set => _empType = value;
-        }
 
         public override void display()
         {
